@@ -4,6 +4,7 @@ export default defineConfig({
   lang: 'zh-CN',
   title: 'Vibe Coding 中文指南',
   description: '从概念到实战，掌握 AI 驱动的新型编程方式',
+  base: '/ai-doc/',
   cleanUrls: true,
   lastUpdated: true,
   appearance: true,
