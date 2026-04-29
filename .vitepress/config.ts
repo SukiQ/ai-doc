@@ -79,6 +79,7 @@ export default defineConfig({
           text: '使用技巧',
           items: [
             { text: 'CLAUDE.md 编写', link: '/vibe-tools/claude-code/claude-md' },
+            { text: '选择 Skills', link: '/vibe-tools/claude-code/skills' },
           ],
         },
       ],
