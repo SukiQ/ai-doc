@@ -26,7 +26,7 @@ export default defineConfig({
           { text: 'Claude Code', link: '/vibe-tools/claude-code/getting-started' },
           { text: '编程工具', link: '/tools/comparison' },
           { text: '实践', link: '/practices/prompt-engineering' },
-          { text: '开发框架', link: '/frameworks/openai-api' },
+          { text: '开发流程', link: '/dev-workflow/overview' },
           { text: '实战案例', link: '/cases/fullstack-app' },
         ],
       },
@@ -71,15 +71,16 @@ export default defineConfig({
           text: '功能详解',
           items: [
             { text: '斜杠命令、记忆与技能', link: '/vibe-tools/claude-code/features' },
-            { text: 'Hooks 与 MCP 服务器', link: '/vibe-tools/claude-code/hooks-and-mcp' },
+            { text: 'Hooks', link: '/vibe-tools/claude-code/hooks-and-mcp' },
             { text: 'IDE 集成', link: '/vibe-tools/claude-code/ide-integration' },
           ],
         },
         {
           text: '使用技巧',
           items: [
-            { text: 'CLAUDE.md 编写', link: '/vibe-tools/claude-code/claude-md' },
-            { text: '选择 Skills', link: '/vibe-tools/claude-code/skills' },
+            { text: 'CLAUDE.md', link: '/vibe-tools/claude-code/claude-md' },
+            { text: 'Skills', link: '/vibe-tools/claude-code/skills' },
+            { text: 'MCP', link: '/vibe-tools/claude-code/mcp' },
           ],
         },
       ],
@@ -94,14 +95,14 @@ export default defineConfig({
           ],
         },
       ],
-      '/frameworks/': [
+      '/dev-workflow/': [
         {
-          text: 'AI 开发框架',
+          text: 'Vibe Coding 开发流程',
           items: [
-            { text: 'OpenAI API', link: '/frameworks/openai-api' },
-            { text: 'Anthropic API', link: '/frameworks/anthropic-api' },
-            { text: 'LangChain', link: '/frameworks/langchain' },
-            { text: 'LlamaIndex', link: '/frameworks/llamaindex' },
+            { text: '开发流程概览', link: '/dev-workflow/overview' },
+            { text: '准备阶段', link: '/dev-workflow/preparation' },
+            { text: '开发阶段', link: '/dev-workflow/development' },
+            { text: '验证与交付', link: '/dev-workflow/review-deploy' },
           ],
         },
       ],
